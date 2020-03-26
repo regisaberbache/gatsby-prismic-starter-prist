@@ -76,7 +76,7 @@ const AboutActions = styled("div")`
     @media(max-width: ${dimensions.maxwidthMobile}px) {
         padding: 0;
         grid-column: 1 / -1;
-        grid-row: 2;
+        grid-row: 3;
     }
 `
 
