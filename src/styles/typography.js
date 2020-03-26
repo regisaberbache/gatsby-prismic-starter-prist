@@ -3,16 +3,16 @@ import dimensions from "styles/dimensions";
 
 const typeStyles = css`
     h1 {
-        font-size: 1.8em;
+        font-size: 2.8em;
         line-height: 1.45;
         font-weight: 800;
 
         @media(max-width:${dimensions.maxwidthTablet}px) {
-            font-size: 1.6em;
+            font-size: 2.25em;
         }
 
         @media(max-width:${dimensions.maxwidthMobile}px) {
-            font-size: 1.3em;
+            font-size: 2em;
         }
     }
 
