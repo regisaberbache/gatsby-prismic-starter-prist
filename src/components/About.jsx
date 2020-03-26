@@ -29,7 +29,7 @@ const AboutLinkContainer = styled("div")`
     flex-direction: column;
 
     @media(max-width: ${dimensions.maxwidthMobile}px) {
-        grid-row: 2;
+        grid-row: 1;
     }
 `
 
@@ -63,7 +63,7 @@ const AboutBio = styled("div")`
 
 
     @media(max-width: ${dimensions.maxwidthMobile}px) {
-        grid-row: 2;
+        grid-row: 1;
     }
 `
 
@@ -75,7 +75,7 @@ const AboutActions = styled("div")`
     @media(max-width: ${dimensions.maxwidthMobile}px) {
         padding: 0;
         grid-column: 1 / -1;
-        grid-row: 1;
+        grid-row: 2;
     }
 `
 
@@ -97,9 +97,9 @@ const About = ({ bio, socialLinks }) => (
             {RichText.render(bio)}
         </AboutBio>
         <AboutActions>
-            <a href="mailto:marguerite.roth@gmail.com" target="_blank" rel="noopener noreferrer">
+            <a href="mailto:regis.aberbache@gmail.com" target="_blank" rel="noopener noreferrer">
                 <Button className="Button--secondary">
-                    Email me
+                    Me contacter
                 </Button>
             </a>
         </AboutActions>
