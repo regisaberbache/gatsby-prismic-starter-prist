@@ -14,6 +14,7 @@ const ButtonContainer = styled("button")`
     border-radius: 2px;
     position: relative;
     transition: background 100ms ease-in-out;
+    display: none;
 
     @media(max-width:${dimensions.maxwidthMobile}px) {
         padding: 0.8em 1.8em;
