@@ -16,7 +16,7 @@ const AboutContainer = styled("div")`
     }
 
     @media(max-width: ${dimensions.maxwidthMobile}px) {
-        grid-template-columns: 7em 1fr;
+        grid-template-columns: 1fr;
         grid-template-rows: 24em 8em 1fr;
         grid-gap: 2em;
     }
