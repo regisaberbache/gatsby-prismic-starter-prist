@@ -1,11 +1,11 @@
-@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap');
 
 html {
-    font-family: 'Inter', sans-serif;
+    font-family: 'PT+Sans', sans-serif;
 }
 
 @supports (font-variation-settings: normal) {
     html {
-        font-family: 'Inter var', sans-serif;
+        font-family: 'PT+Sans var', sans-serif;
     }
 }
