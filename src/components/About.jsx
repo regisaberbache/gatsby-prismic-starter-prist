@@ -8,11 +8,11 @@ import PropTypes from "prop-types";
 const AboutContainer = styled("div")`
     padding-top: 1em;
     display: grid;
-    grid-template-columns: 1fr 2fr 1em;
-    grid-gap: 3em;
+    grid-template-columns: 16em 2fr 1em;
+    grid-gap: 2em;
 
     @media(max-width: ${dimensions.maxwidthTablet}px) {
-        grid-template-columns: 1fr 2fr 1em;
+        grid-template-columns: 16em 2fr 1em;
     }
 
     @media(max-width: ${dimensions.maxwidthMobile}px) {
