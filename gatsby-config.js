@@ -33,7 +33,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-prismic-starter-prist`,
+        name: `regisportfolio`,
         short_name: `prist`,
         start_url: `/`,
         background_color: `#663399`,
