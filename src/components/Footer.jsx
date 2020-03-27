@@ -41,8 +41,8 @@ const Footer = () => (
     <FooterContainer>
         <FooterAuthor>
             © Régis Aberbache
-            Base : starter GatsbyJS de <a href="https://marguerite.io" style="text-decoration: none;" target="_blank">Marguerite Roth</a>
-            Hébergeur : <a href="https://www.netlify.com" style="text-decoration: none;" target="_blank">Netlify</a>
+            Base : starter GatsbyJS de <a href="https://marguerite.io" style="" target="_blank">Marguerite Roth</a>
+            Hébergeur : <a href="https://www.netlify.com" style="" target="_blank">Netlify</a>
         </FooterAuthor>
     </FooterContainer>
 )
