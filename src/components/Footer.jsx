@@ -43,7 +43,7 @@ const Footer = () => (
     <FooterContainer>
 
         <FooterAuthor>
-            © Régis Aberbache  I  Base : starter GatsbyJS de Marguerite Roth  I  Hébergeur : Netlify
+            © Régis Aberbache  &nbsp;I&nbsp;  Base : starter GatsbyJS de Marguerite Roth  &nbsp;I&nbsp;  Hébergeur : Netlify
         </FooterAuthor>
     </FooterContainer>
 )
