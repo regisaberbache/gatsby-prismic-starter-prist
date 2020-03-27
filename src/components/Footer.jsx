@@ -24,7 +24,7 @@ const FooterAuthor = styled("p")`
     flex-direction: column;
     align-items: center;
     text-decoration: none;
-    margin-top: 1.5em;
+    margin-top: 0.5em;
 
      &:hover {
          color: ${colors.grey700};
@@ -43,10 +43,10 @@ const Footer = () => (
     <FooterContainer>
 
         <FooterAuthor>
-            © Régis Aberbache
+            ©&nbsp;Régis&nbsp;Aberbache  &nbsp;&nbsp;I&nbsp;&nbsp;  Base&nbsp;:&nbsp;starter&nbsp;GatsbyJS de&nbsp;Marguerite&nbsp;Roth  &nbsp;&nbsp;I&nbsp;&nbsp;  Hébergeur&nbsp;:&nbsp;Netlify
         </FooterAuthor>
         <FooterAuthor>
-            Base : starter GatsbyJS de Marguerite Roth  &nbsp;&nbsp;I&nbsp;&nbsp;  Hébergeur : Netlify
+            
         </FooterAuthor>
     </FooterContainer>
 )
