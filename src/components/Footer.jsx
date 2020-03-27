@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 import styled from "@emotion/styled";
 import colors from "styles/colors";
 import Logo from "components/_ui/Logo";
-import spooch from "images/oscar-icon.png"
+
 
 const FooterContainer = styled("div")`
     padding-top: 3.75em;
@@ -37,20 +37,13 @@ const FooterAuthor = styled("a")`
     }
 `
 
-const FooterSpooch = styled("img")`	
-    max-width: 33px;	
-    margin-top: 0.25em;	
-`
+
 
 const Footer = () => (
     <FooterContainer>
-        <Link to="/">
-            <Logo />
-        </Link>
+
         <FooterAuthor>
-            © Régis Aberbache
-            Base : starter GatsbyJS de <a href="https://marguerite.io" target="_blank">Marguerite Roth</a>
-            Hébergeur : <a href="https://www.netlify.com" target="_blank">Netlify</a>
+            © Régis Aberbache  I  Base : starter GatsbyJS de Marguerite Roth  I  Hébergeur : Netlify
         </FooterAuthor>
     </FooterContainer>
 )
