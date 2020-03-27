@@ -17,7 +17,7 @@ const FooterContainer = styled("div")`
     }
 `
 
-const FooterAuthor = styled("a")`
+const FooterAuthor = styled("p")`
     font-size: 0.75em;
     color: ${colors.grey700};
     display: flex;
@@ -43,7 +43,10 @@ const Footer = () => (
     <FooterContainer>
 
         <FooterAuthor>
-            © Régis Aberbache  &nbsp;I&nbsp;  Base : starter GatsbyJS de Marguerite Roth  &nbsp;I&nbsp;  Hébergeur : Netlify
+            © Régis Aberbache
+        </FooterAuthor>
+        <FooterAuthor>
+            Base : starter GatsbyJS de Marguerite Roth  &nbsp;&nbsp;I&nbsp;&nbsp;  Hébergeur : Netlify
         </FooterAuthor>
     </FooterContainer>
 )
