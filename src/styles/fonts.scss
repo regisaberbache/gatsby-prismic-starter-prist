@@ -1,11 +1,11 @@
 @import url('https://github.com/cosmicmocha/Montserrat/raw/master/fonts/variable/Montserrat-VF.woff2');
 
 html {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat-VF', sans-serif;
 }
 
 @supports (font-variation-settings: normal) {
     html {
-        font-family: 'Montserrat var', sans-serif;
+        font-family: 'Montserrat-VF var', sans-serif;
     }
 }
