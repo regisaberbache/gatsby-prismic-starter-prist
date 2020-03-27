@@ -26,14 +26,8 @@ const FooterAuthor = styled("a")`
     margin-top: 1.5em;
 
      &:hover {
-         color: ${colors.blue900};
+         color: ${colors.grey700};
 
-        .FooterSpooch {
-            animation-name: rotate;
-            animation-duration: 1.5s;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-        }
     }
 
     @keyframes rotate {
@@ -45,11 +39,10 @@ const FooterAuthor = styled("a")`
 
 const Footer = () => (
     <FooterContainer>
-        <Link to="/">
-            <Logo />
-        </Link>
         <FooterAuthor>
-            © Régis Aberbache - Site basé sur le starter GatsbyJS de <a href="https://marguerite.io">Marguerite Roth</a>
+            © Régis Aberbache
+            Base : starter GatsbyJS de <a href="https://marguerite.io" style="text-decoration: none;" target="_blank">Marguerite Roth</a>
+            Hébergeur : <a href="https://www.netlify.com" style="text-decoration: none;" target="_blank">Netlify</a>
         </FooterAuthor>
     </FooterContainer>
 )
