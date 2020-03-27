@@ -44,8 +44,7 @@ const Hero = styled("div")`
         }
     }
 
-    h4 {
-        margin-bottom: 1em;
+    p {
         a {
             text-decoration: none;
             transition: all 100ms ease-in-out;
