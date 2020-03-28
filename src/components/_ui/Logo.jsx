@@ -1,7 +1,7 @@
 import React from "react";
 
 const Logo = () => (
-<svg width="90" height="30" viewBox="0 0 90 30" xmlns="http://www.w3.org/2000/svg">
+<svg width="71" height="31" viewBox="0 0 71 31" xmlns="http://www.w3.org/2000/svg">
 <g id="calque_2" style="fill: #FF3C00">
 	<path d="M5.6,10.36H5.1v3.87H2.59V3.2H7.1c2.56,0,3.71,1.82,3.71,3.65c0,1.55-0.82,2.91-2.59,3.36l2.85,4.02H8.14
 		L5.6,10.36z M5.1,8.37h1.6c1.1,0,1.58-0.72,1.58-1.46S7.79,5.4,6.76,5.4H5.1V8.37z"/>
