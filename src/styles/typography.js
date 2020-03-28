@@ -51,6 +51,7 @@ const typeStyles = css`
     }
 
     a {
+        letter-spacing: -0.02em;
         &:hover {
             cursor: pointer;
         }
