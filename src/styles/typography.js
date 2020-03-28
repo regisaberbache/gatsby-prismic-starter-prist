@@ -5,6 +5,7 @@ const typeStyles = css`
     h1 {
         font-size: 2.8em;
         line-height: 1.45;
+        letter-spacing: 0.9em;
         font-weight: 800;
 
         @media(max-width:${dimensions.maxwidthTablet}px) {
@@ -28,6 +29,7 @@ const typeStyles = css`
     }
 
     h5 {
+        font-family: sans-serif;
         margin-bottom: 1.45rem;
         font-weight: 500;
         line-height: 20px;
@@ -35,12 +37,14 @@ const typeStyles = css`
     }
 
     h6 {
+        font-family: sans-serif;
         font-size: 0.9em;
         font-weight: 500;
         margin: 0;
     }
 
     p {
+        font-family: sans-serif;
         line-height: 1.9;
     }
 
