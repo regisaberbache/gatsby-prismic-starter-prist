@@ -17,7 +17,7 @@ const HeaderContent = styled("div")`
 
 const HeaderLogo = styled("div")`
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: 1;
     grid-gap: 7em;
     justify-content: flex-start;
     width: 100%;
@@ -33,7 +33,7 @@ const HeaderLogo = styled("div")`
     a {
         color: currentColor;
         text-decoration: none;
-        border-bottom: 3px solid transparent;
+
         font-weight: 600;
         font-size: 0.95em;
         height: 100%;
@@ -74,7 +74,7 @@ const HeaderLogo = styled("div")`
 
 const HeaderLinks = styled("div")`
     display: grid;
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: 1;
     grid-gap: 7em;
     justify-content: flex-end;
     width: 100%;
