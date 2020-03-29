@@ -115,8 +115,8 @@ const WorkAction = styled(Link)`
 const RenderBody = ({ home, projects, meta }) => (
     <>
         <Helmet
-            title={meta.title}
-            titleTemplate={`%s | ${meta.title}`}
+            title={Régis Aberbache | Portfolio}
+            titleTemplate={`Régis Aberbache | Portfolio`}
             meta={[
                 {
                     name: `description`,
