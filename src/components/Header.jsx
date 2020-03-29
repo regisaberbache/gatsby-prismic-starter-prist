@@ -75,9 +75,12 @@ const HeaderLinks = styled("div")`
 const Header = () => (
     <HeaderContainer>
         <HeaderContent>
-            <Link to="/">
-                <Logo/>
+            <Link
+                    activeClassName="Link--is-active"
+                    to="/">
+                    Régis Aberbache
             </Link>
+            
             <HeaderLinks>
                 <Link
                     activeClassName="Link--is-active"
