@@ -13,8 +13,8 @@ const WorkTitle = styled("h1")`
 const Work = ({ projects, meta }) => (
     <>
         <Helmet
-            title={`Portfolio | Régis Aberbache`}
-            titleTemplate={`%s | Portfolio | Régis Aberbache`}
+            title={`Projets`}
+            titleTemplate={`%s | Projets`}
             meta={[
                 {
                     name: `description`,
@@ -22,7 +22,7 @@ const Work = ({ projects, meta }) => (
                 },
                 {
                     property: `og:title`,
-                    content: `Portfolio | Régis Aberbache`,
+                    content: `Projets`,
                 },
                 {
                     property: `og:description`,
