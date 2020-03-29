@@ -52,7 +52,7 @@ const Work = ({ projects, meta }) => (
         />
         <Layout>
             <WorkTitle>
-                Quelques projets
+                Projets
             </WorkTitle>
             <>
                 {projects.map((project, i) => (
