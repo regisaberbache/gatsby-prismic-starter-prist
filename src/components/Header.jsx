@@ -33,7 +33,7 @@ const HeaderLogo = styled("div")`
     a {
         color: currentColor;
         text-decoration: none;
-
+        border-bottom: 3px solid transparent;
         font-weight: 600;
         font-size: 0.95em;
         height: 100%;
@@ -46,8 +46,8 @@ const HeaderLogo = styled("div")`
             position: absolute;
             content: "";
             bottom: 0;
-            width: 18px;
-            height: 3px;
+            width: 0px;
+            height: 0px;
             background: transparent;
             bottom: -3px;
             right: 50%;
