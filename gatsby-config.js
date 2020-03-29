@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Régis Aberbache | Direction artistique, conseil en communication web / print`,
-        description: `Portfolio en ligne`,
+    title: `Régis Aberbache`,
+        description: `Portfolio`,
     author: `Régis Aberbache`,
   },
   plugins: [
