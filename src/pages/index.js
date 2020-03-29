@@ -45,7 +45,7 @@ const Hero = styled("div")`
     }
 
     h3 {
-        margin-bottom: 0.5em;
+        margin-bottom: 1.5em;
     }
 
     p {
