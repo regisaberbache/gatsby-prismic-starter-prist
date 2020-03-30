@@ -6,7 +6,6 @@ const typeStyles = css`
         font-size: 2.8em;
         line-height: 1.45;
         letter-spacing: -0.02em;
-        font-weight: 800;
 
         @media(max-width:${dimensions.maxwidthTablet}px) {
             font-size: 2.25em;
