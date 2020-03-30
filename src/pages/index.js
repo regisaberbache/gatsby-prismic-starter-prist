@@ -73,7 +73,7 @@ const Hero = styled("div")`
 `
 
 const Section = styled("div")`
-    margin-bottom: 10em;
+    margin-bottom: 5em;
     display: flex;
     flex-direction: column;
 
