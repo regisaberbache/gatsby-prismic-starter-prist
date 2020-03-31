@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Régis Aberbache | Portfolio`,
-        description: `Direction artistique tous supports, sites internet, conseil en communication, gestion de projet`,
+        description: `Directeur artistique freelance tous supports, sites internet, conseil en communication, gestion de projet`,
     author: `Régis Aberbache`,
   },
   plugins: [
@@ -34,12 +34,12 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `regisportfolio`,
-        short_name: `prist`,
+        short_name: `regis`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/oscar-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/regis-icon.png`, // This path is relative to the root of the site.
       },
     },
     // https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
