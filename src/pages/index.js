@@ -52,11 +52,11 @@ const Hero = styled("div")`
         a {
             text-decoration: none;
             transition: all 100ms ease-in-out;
-            &:nth-of-type(1) { color: ${colors.blue600};    border-bottom: 2px dotted ${colors.blue600}; }
-            &:nth-of-type(2) { color: ${colors.orange600};  border-bottom: 2px dotted ${colors.orange600}; }
-            &:nth-of-type(3) { color: ${colors.purple600};  border-bottom: 2px dotted ${colors.purple600}; }
-            &:nth-of-type(4) { color: ${colors.green600};   border-bottom: 2px dotted ${colors.green600}; }
-            &:nth-of-type(5) { color: ${colors.teal600};    border-bottom: 2px dotted ${colors.teal600}; }
+            &:nth-of-type(1) { color: ${colors.blue600};}
+            &:nth-of-type(2) { color: ${colors.orange600};}
+            &:nth-of-type(3) { color: ${colors.purple600};}
+            &:nth-of-type(4) { color: ${colors.green600};}
+            &:nth-of-type(5) { color: ${colors.teal600};}
             &:hover {
                 cursor: pointer;
                 transition: all 100ms ease-in-out;
