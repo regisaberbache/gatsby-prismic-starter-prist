@@ -28,7 +28,7 @@ const ProjectCardContainer = styled(Link)`
     }
 
     &:hover {
-        box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.1);
+        box-shadow: 0px 9px 24px rgba(83, 147, 254, 0.3);
         transition: all 150ms ease-in-out;
 
         .ProjectCardAction {
@@ -170,7 +170,7 @@ const ProjectCard = ({ category, title, description, thumbnail, uid}) => (
                 {RichText.render(description)}
             </ProjectCardBlurb>
             <ProjectCardAction className="ProjectCardAction">
-                Details <span>&#8594;</span>
+                Voir ce projet <span>&#8594;</span>
             </ProjectCardAction>
         </ProjectCardContent>
         <ProjectCardImageContainer className="ProjectCardImageContainer">
