@@ -7,7 +7,7 @@ import colors from "styles/colors";
 
 const FooterContainer = styled("div")`
     padding-top: 3.75em;
-    padding-bottom: 3em;
+    padding-bottom: 0em;
     display: flex;
     flex-direction: column;
     align-items: center;
