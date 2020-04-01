@@ -11,7 +11,7 @@ const ProjectCardContainer = styled(Link)`
     grid-template-columns: 4fr 7fr;
     box-shadow: 20px 20px 0px rgba(255, 92, 5, 0.1);
     margin-bottom: 4em;
-    transition: all 500ms ease-in-out;
+    transition: all 400ms ease-in-out;
     text-decoration: none;
     color: currentColor;
 
@@ -29,7 +29,7 @@ const ProjectCardContainer = styled(Link)`
 
     &:hover {
         box-shadow: -20px 20px 0px rgba(5, 130, 255, 0.1);
-        transition: all 200ms ease-in-out;
+        transition: all 150ms ease-in-out;
 
         .ProjectCardAction {
             color: white;
