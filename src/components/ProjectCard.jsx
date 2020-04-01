@@ -39,7 +39,7 @@ const ProjectCardContainer = styled(Link)`
             span {
                 transform: translateX(10px);
                 opacity: 1;
-                transition: transform 150ms ease-in-out;
+                transition: transform 150ms ease-in-out-back;
             }
         }
 
