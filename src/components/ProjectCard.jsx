@@ -43,18 +43,18 @@ const ProjectCardContainer = styled(Link)`
             }
         }
 
-        .ProjectCardContent::before {
-            opacity: 1;
-            transition: all 150ms ease-in-out;
-        }
-
-        .ProjectCardImageContainer::before {
-            opacity: 1;
+        .ProjectCardContent {
+            background: ${colors.blue500};
             transition: all 150ms ease-in-out;
         }
 
         .ProjectCardImageContainer {
-            background: white;
+            background: ${colors.blue500};
+            transition: all 150ms ease-in-out;
+        }
+
+        .ProjectCardCategory {
+            color: white;
             transition: all 150ms ease-in-out;
         }
     }
@@ -64,6 +64,7 @@ const ProjectCardContent = styled("div")`
     background: white;
     padding: 4em 3em 2.25em 3em;
     position: relative;
+    transition: all 150ms ease-in-out;
 
     &:before {
         position: absolute;
@@ -89,20 +90,14 @@ const ProjectCardContent = styled("div")`
 
 const ProjectCardCategory = styled("h6")`
     font-weight: 400;
-    color: ${colors.grey600};
-
-    &:before {
-        transition: all 200ms ease-in-out;
-        transform: translateX(0px);
-    }
-    
+    color: black;
+    transition: all 150ms ease-in-out;    
 `
 
 const ProjectCardTitle = styled("h3")`
     margin-bottom: 0.5em;
     margin-top: 0.5em;
     transition: all 150ms ease-in-out;
-    transform: translateX(0px);
 `
 
 const ProjectCardBlurb = styled("div")`
@@ -131,7 +126,7 @@ const ProjectCardAction = styled("div")`
 `
 
 const ProjectCardImageContainer = styled("div")`
-    background: ${colors.grey200};
+    background: ${colors.grey100};
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -139,6 +134,7 @@ const ProjectCardImageContainer = styled("div")`
     position: relative;
     padding-left: 2em;
     padding-right: 2em;
+    transition: all 150ms ease-in-out;
 
     @media(max-width:${dimensions.maxwidthTablet}px) {
         padding-top: 3em;
@@ -164,6 +160,9 @@ const ProjectCardImageContainer = styled("div")`
     img {
         max-width: 400px;
         width: 100%;
+        -webkit-filter: drop-shadow(0px 30px 30px rgba(0,0,0,0.3));
+        -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=0, OffY=30, Color='#DDD')";
+        filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#DDD')";
         
         @media(max-width:${dimensions.maxwidthTablet}px) {
             max-width: 300px;
