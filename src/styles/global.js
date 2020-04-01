@@ -19,7 +19,7 @@ const globalStyles = css`
         line-height: 1.5;
         color: ${colors.grey900};
         -webkit-font-smoothing: antialiased;
-        background-color: #ffff4a;
+        background-color: #ffff31;
         @media(max-width: ${dimensions.maxwidthMobile}px) {
             font-size: 14px;
         }
@@ -29,8 +29,8 @@ const globalStyles = css`
             box-sizing: border-box;
 
             &::selection {
-                background: white;
-                color: blue;
+                background: blue;
+                color: white;
             }
         }
     }
