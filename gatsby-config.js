@@ -36,8 +36,8 @@ module.exports = {
         name: `regisportfolio`,
         short_name: `regis`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ffff50`,
+        theme_color: `#ffff50`,
         display: `minimal-ui`,
         icon: `src/images/regis-icon.png`, // This path is relative to the root of the site.
       },
