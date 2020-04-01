@@ -9,9 +9,9 @@ import PropTypes from "prop-types";
 const ProjectCardContainer = styled(Link)`
     display: grid;
     grid-template-columns: 4fr 7fr;
-    box-shadow: 0px 9px 24px rgba(0, 0, 0, 0.06);
+    box-shadow: 40px 40px 0px rgba(0, 0, 0, 0.1);
     margin-bottom: 4em;
-    transition: all 150ms ease-in-out;
+    transition: all 500ms ease-in-out;
     text-decoration: none;
     color: currentColor;
 
@@ -28,15 +28,16 @@ const ProjectCardContainer = styled(Link)`
     }
 
     &:hover {
-        box-shadow: 0px 9px 24px rgba(83, 147, 254, 0.3);
-        transition: all 150ms ease-in-out;
+        box-shadow: -40px 40px 0px rgba(0, 0, 0, 0.1);
+        transition: all 200ms ease-in-out;
 
         .ProjectCardAction {
             color: ${colors.blue500};
-            transition: all 150ms ease-in-out;
+            transition: all 200ms ease-in-out;
+            transform: translateX(20px);
 
             span {
-                transform: translateX(0px);
+                transform: translateX(10px);
                 opacity: 1;
                 transition: transform 150ms ease-in-out;
             }
@@ -105,7 +106,7 @@ const ProjectCardAction = styled("div")`
     font-weight: 600;
     text-decoration: none;
     color: currentColor;
-    transition: all 150ms ease-in-out;
+    transition: all 400ms ease-in-out;
 
     span {
         margin-left: 1em;
