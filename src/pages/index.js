@@ -53,7 +53,7 @@ const Hero = styled("div")`
             text-decoration: none;
             transition: all 100ms ease-in-out;
             color: #1161D9;
-            outline: 1px dashed #5796FB;
+            outline: 1px solid #D6D6D6;
             outline-offset: 0px;
             padding: 5px;
             margin: 2px;
@@ -61,6 +61,7 @@ const Hero = styled("div")`
                 cursor: pointer;
                 transition: all 100ms ease-in-out;
                 background-color: white;
+                outline: 1px dashed #5796FB;
                 outline-offset: 3px;
             }
         }
