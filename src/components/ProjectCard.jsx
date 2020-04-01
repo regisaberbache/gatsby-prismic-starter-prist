@@ -52,11 +52,6 @@ const ProjectCardContainer = styled(Link)`
             opacity: 0.2;
             transition: all 150ms ease-in-out;
         }
-
-        .ProjectCardCategory {
-            transition: all 200ms ease-in-out;
-            transform: translateX(20px);
-        }
     }
 `
 
@@ -90,14 +85,19 @@ const ProjectCardContent = styled("div")`
 const ProjectCardCategory = styled("h6")`
     font-weight: 400;
     color: ${colors.grey600};
-    transition: all 200ms ease-in-out;
-    transform: translateX(0px);
+
+    &:before {
+        transition: all 200ms ease-in-out;
+        transform: translateX(0px);
+    }
+    
 `
 
 const ProjectCardTitle = styled("h3")`
     margin-bottom: 0.5em;
     margin-top: 0.5em;
-    transition: all 200ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    transform: translateX(0px);
 `
 
 const ProjectCardBlurb = styled("div")`
