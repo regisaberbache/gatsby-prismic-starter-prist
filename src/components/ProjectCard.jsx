@@ -9,7 +9,7 @@ import PropTypes from "prop-types";
 const ProjectCardContainer = styled(Link)`
     display: grid;
     grid-template-columns: 4fr 7fr;
-    box-shadow: 40px 40px 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.05);
     margin-bottom: 4em;
     transition: all 500ms ease-in-out;
     text-decoration: none;
@@ -28,7 +28,7 @@ const ProjectCardContainer = styled(Link)`
     }
 
     &:hover {
-        box-shadow: -40px 40px 0px rgba(0, 0, 0, 0.1);
+        box-shadow: -20px 20px 0px rgba(0, 0, 0, 0.05);
         transition: all 200ms ease-in-out;
 
         .ProjectCardAction {
@@ -51,6 +51,11 @@ const ProjectCardContainer = styled(Link)`
         .ProjectCardImageContainer::before {
             opacity: 0.2;
             transition: all 150ms ease-in-out;
+        }
+
+        .ProjectCardCategory {
+            transition: all 200ms ease-in-out;
+            transform: translateX(20px);
         }
     }
 `
@@ -85,17 +90,21 @@ const ProjectCardContent = styled("div")`
 const ProjectCardCategory = styled("h6")`
     font-weight: 400;
     color: ${colors.grey600};
+    transition: all 200ms ease-in-out;
+    transform: translateX(0px);
 `
 
 const ProjectCardTitle = styled("h3")`
     margin-bottom: 0.5em;
     margin-top: 0.5em;
+    transition: all 200ms ease-in-out;
 `
 
 const ProjectCardBlurb = styled("div")`
     margin-bottom: 0.5em;
     margin-top: 0.5em;
     margin-bottom: 5em;
+    transition: all 200ms ease-in-out;
 
     @media(max-width:${dimensions.maxwidthTablet}px) {
         margin-bottom: 2.5em;
