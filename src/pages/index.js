@@ -52,8 +52,8 @@ const Hero = styled("div")`
         a {
             text-decoration: none;
             transition: all 100ms ease-in-out;
-            color: blue;
-            outline: 1px dashed blue;
+            color: #1161D9;
+            outline: 1px dashed #5796FB;
             outline-offset: 0px;
             padding: 5px;
             margin: 2px;
