@@ -82,7 +82,7 @@ const ProjectCardContent = styled("div")`
 `
 
 const ProjectCardCategory = styled("h6")`
-    font-weight: 600;
+    font-weight: 400;
     color: ${colors.grey600};
 `
 
