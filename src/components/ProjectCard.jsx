@@ -9,7 +9,7 @@ import PropTypes from "prop-types";
 const ProjectCardContainer = styled(Link)`
     display: grid;
     grid-template-columns: 4fr 7fr;
-    box-shadow: 20px 20px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 20px 20px 0px rgba(255, 92, 5, 0.1);
     margin-bottom: 4em;
     transition: all 500ms ease-in-out;
     text-decoration: none;
@@ -28,11 +28,11 @@ const ProjectCardContainer = styled(Link)`
     }
 
     &:hover {
-        box-shadow: -20px 20px 0px rgba(0, 0, 0, 0.05);
+        box-shadow: -20px 20px 0px rgba(5, 130, 255, 0.1);
         transition: all 200ms ease-in-out;
 
         .ProjectCardAction {
-            color: ${colors.blue500};
+            color: white;
             transition: all 200ms ease-in-out;
             transform: translateX(20px);
 
@@ -44,12 +44,17 @@ const ProjectCardContainer = styled(Link)`
         }
 
         .ProjectCardContent::before {
-            opacity: 0.02;
+            opacity: 1;
             transition: all 150ms ease-in-out;
         }
 
         .ProjectCardImageContainer::before {
-            opacity: 0.2;
+            opacity: 1;
+            transition: all 150ms ease-in-out;
+        }
+
+        .ProjectCardImageContainer {
+            background: white;
             transition: all 150ms ease-in-out;
         }
     }
@@ -159,8 +164,7 @@ const ProjectCardImageContainer = styled("div")`
     img {
         max-width: 400px;
         width: 100%;
-        box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.04);
-
+        
         @media(max-width:${dimensions.maxwidthTablet}px) {
             max-width: 300px;
         }
