@@ -19,7 +19,7 @@ const globalStyles = css`
         line-height: 1.5;
         color: ${colors.grey900};
         -webkit-font-smoothing: antialiased;
-        background-color: #ffff31;
+        background-color: #ffff50;
         @media(max-width: ${dimensions.maxwidthMobile}px) {
             font-size: 14px;
         }
