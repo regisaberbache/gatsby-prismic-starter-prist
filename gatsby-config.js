@@ -33,8 +33,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `regisportfolio`,
-        short_name: `regis`,
+        name: `Régis Aberbache Portfolio`,
+        short_name: `Régis Aberbache`,
         start_url: `/`,
         background_color: `#ffff50`,
         theme_color: `#ffff50`,
