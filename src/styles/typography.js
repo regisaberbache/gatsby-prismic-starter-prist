@@ -3,6 +3,7 @@ import dimensions from "styles/dimensions";
 
 const typeStyles = css`
     h1 {
+        font-display: swap;        
         font-weight: 700;
         font-size: 2.8em;
         line-height: 1.2;
