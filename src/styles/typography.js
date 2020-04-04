@@ -3,7 +3,7 @@ import dimensions from "styles/dimensions";
 
 const typeStyles = css`
     h1 {
-        font-display: swap;
+        font-weight: 700;
         font-size: 2.8em;
         line-height: 1.2;
         letter-spacing: -0.02em;
@@ -18,7 +18,7 @@ const typeStyles = css`
     }
 
     h2 {
-        font-display: swap;
+        font-weight: 700;
         margin-bottom: 2rem;
         font-size: 1.9em;
         line-height: 1.1;
@@ -26,14 +26,14 @@ const typeStyles = css`
     }
 
     h3 {
-        font-display: swap;
+        font-weight: 700;
         line-height: 1.2;
         font-size: 1.5em;
         letter-spacing: -0.02em;
     }
 
     h5 {
-        font-display: swap;
+        font-weight: 700;
         margin-bottom: 1.45rem;
         font-weight: 500;
         line-height: 20px;
@@ -53,7 +53,7 @@ const typeStyles = css`
     }
 
     a {
-        font-display: swap;
+        font-weight: 700;
         letter-spacing: -0.02em;
         &:hover {
             cursor: pointer;
