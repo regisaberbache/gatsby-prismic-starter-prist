@@ -1,6 +1,7 @@
 import css from '@emotion/css';
 import dimensions from "styles/dimensions";
 
+
 const typeStyles = css`
     h1 {
         font-weight: 700;
