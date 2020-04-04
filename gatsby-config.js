@@ -28,6 +28,7 @@ module.exports = {
         options: {
             repositoryName: 'regisportfolio', // (REQUIRED, replace with your own)
             linkResolver: () => post => `/${post.uid}`,
+            omitPrismicScript: true
         }
     },
     {
