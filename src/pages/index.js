@@ -23,6 +23,7 @@ const Hero = styled("div")`
 
 
     h1 {
+        font-display: swap;
         margin-bottom: 1em;
         a {
             text-decoration: none;
