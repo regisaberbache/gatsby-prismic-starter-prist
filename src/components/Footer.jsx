@@ -19,7 +19,7 @@ const FooterContainer = styled("div")`
 
 const FooterAuthor = styled("p")`
     font-size: 0.75em;
-    color: ${colors.grey700};
+    color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
