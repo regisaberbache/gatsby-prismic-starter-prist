@@ -41,7 +41,7 @@ const FooterAuthor = styled("a")`
 const Footer = () => (
     <FooterContainer>
 
-        <FooterAuthor href="https://www.netlify.com">
+        <FooterAuthor href="https://www.netlify.com" target="_blank">
             Hébergeur&nbsp;:&nbsp;Netlify
         </FooterAuthor>
         <FooterAuthor>
