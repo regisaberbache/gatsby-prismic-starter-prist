@@ -51,6 +51,7 @@ const Hero = styled("div")`
 
     p {
         a {
+            font-weight: 400;
             text-decoration: none;
             transition: all 100ms ease-in-out;
             color: #1161D9;
